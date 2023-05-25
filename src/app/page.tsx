@@ -18,7 +18,7 @@ export default function Home() {
       </h1>
       <p className="text-2xl">
         I&apos;m launching something new ✨ if you are a ReactJS and Typescript
-        enthusiast stay tune! 😍
+        enthusiast stay tuned! 😍
       </p>
       <Link
         className="flex items-center gap-2 rounded-lg border border-gray-300/40 px-6 py-4 transition hover:bg-gray-500/25"
