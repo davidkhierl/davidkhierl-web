@@ -1,5 +1,7 @@
 import { Analytics } from '@vercel/analytics/react'
+import { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import * as React from 'react'
 import './globals.css'
 
 const inter = Inter({
@@ -8,9 +10,9 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
-export const metadata = {
-  title: 'NextJS Tailwind Template',
-  description: 'NextJS Tailwind starter template!',
+export const metadata: Metadata = {
+  title: 'David Khierl',
+  description: 'Senior software engineer based from Dubai, UAE',
 }
 
 export default function RootLayout({

@@ -1,11 +1,5 @@
-import { Metadata } from 'next'
+import { Github } from 'lucide-react'
 import Link from 'next/link'
-import { GoMarkGithub } from 'react-icons/go'
-
-export const metadata: Metadata = {
-  title: 'David Khierl',
-  description: 'Senior software engineer based from Dubai, UAE',
-}
 
 export default function Home() {
   return (
@@ -24,7 +18,7 @@ export default function Home() {
         <Link
           className="flex items-center justify-center gap-2 rounded-lg border border-gray-300/40 px-6 py-4 transition hover:bg-gray-500/25"
           href="https://github.com/davidkhierl">
-          <GoMarkGithub />
+          <Github />
           Check my Github
         </Link>
       </div>
